@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import streamlit as st
 from db.supabase_client import SupabaseClient
 from dashboard.components import inject_custom_css, render_grouped_papers
