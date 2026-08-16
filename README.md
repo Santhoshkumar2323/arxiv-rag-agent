@@ -4,6 +4,10 @@ I read arXiv the way most researchers do: badly. New papers land daily across ha
 
 This isn't a wrapper around a single API call. It's two systems working together: a nightly collector that never talks to an LLM, and an on-demand agent that only spins up when I actually want a deep read.
 
+
+**Live dashboard:** https://arxiv-rag-agent.streamlit.app/
+
+
 ## How it works
 
 ```
